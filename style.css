@@ -87,7 +87,7 @@ article {
     background-position: top center;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url("./images/tileburnedin.jpg");
+    background-image: url("resources/img/tileburnedin.jpg");
     background-size: cover;
 
 }
@@ -98,7 +98,7 @@ article {
     background-position: top center;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url("./images/tileburnedin2.jpeg");
+    background-image: url("resources/img/tileburnedin2.jpg");
     background-size: cover;
     
 }
