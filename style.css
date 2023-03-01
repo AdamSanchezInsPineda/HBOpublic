@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Gilroy-Bold', sans-serif;
-    background-color: black;
+    background-color: white;
     color: white;
     overflow-x: hidden;
     height: 100%;
@@ -14,109 +14,432 @@ body {
     box-sizing: border-box;
 }
 
-article {
-    display: block;
+
+
+@media only screen and (min-width: 768px) {
+
+    article {
+        display: block;
+    }
+
+    #nav {
+        background: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    #hbo-logo {
+        width: 140px;
+        height: 70px;
+        margin-left: 10px;
+    }
+
+    .rightcorner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 2px;
+    }
+
+    #login-button {
+        color: white;
+        text-decoration: none;
+        padding: 8px 45px 8px 45px;
+        border-radius: 20px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: small;
+    }
+
+    #nav-third-item {
+        margin-right: 10px;
+    }
+
+    .sub-button {
+        color: white;
+        background-color: #b535f6;
+        text-decoration: none;
+        padding: 8px 40px 8px 40px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: small;
+    }
+
+    .sub-button:hover {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 15px 45px 15px 45px;
+        border-radius: 20px;
+        margin-left: 25px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: small;
+    }
+
+    .sub-button-2 {
+        color: white;
+        background-color: #b535f6;
+        text-decoration: none;
+        padding: 8px 60px 8px 60px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        font-family: 'Gilroy-bold';
+        letter-spacing: 0.2em;
+    }
+
+    .sub-button-2:hover {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 15px 45px 15px 45px;
+        border-radius: 20px;
+        font-family: 'Gilroy-bold';
+        letter-spacing: 0.2em;
+    }
+
+    #section-1 {
+        display: flex;
+        margin-bottom: 0rem;
+        height: 120vh;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-image: url("resources/img/tileburnedin.jpg");
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #section-2 {
+        margin-bottom: 0rem;
+        height: 120vh;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-image: url("resources/img/tileburnedin2.jpg");
+        background-size: cover;
+        
+    }
+
+    #main-div-section1{
+        min-height: auto;
+
+    }
+
+    #grid-div-section1{
+        display: grid;
+        grid-template-columns: 300px 300px;
+
+    }
+
+    #row1-grid1 {
+        text-align: center;
+        margin: 15px;
+    }
+
+    #row2-grid1 {
+        text-align: center;
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    article {
+        width: 100vw;
+    }
+    
+    #nav {
+        background: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        height: 5vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+
+    #hbo-logo {
+        width: 100px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 6px;
+    }
+
+    .rightcorner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 1.5px;
+    }
+
+    #login-button {
+        color: white;
+        text-decoration: none;
+        padding: 8px 45px 8px 45px;
+        border-radius: 20px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 14px;
+    }
+
+    #nav-third-item {
+        margin-right: 10px;
+    }
+
+    .sub-button {
+        color: white;
+        background-color: #b535f6;
+        text-decoration: none;
+        padding: 4px 10px 4px 10px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 14px;
+    }
+
+    .sub-button:active {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 6px 14px 6px 14px;
+        border-radius: 20px;
+        margin-left: 8px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 14px;
+    }
+
+    .sub-button:hover {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 6px 14px 6px 14px;
+        border-radius: 20px;
+        margin-left: 8px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 14px;
+    }
+
+    .sub-button-2 {
+        color: white;
+        background-color: #b535f6;
+        text-decoration: none;
+        padding: 4px 10px 4px 10px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        font-family: 'Gilroy-bold';
+        letter-spacing: 0.2em;
+        font-size: 14px;
+    }
+
+    .sub-button-2:active {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 5px 12px 5px 12px;
+        border-radius: 20px;
+        font-family: 'Gilroy-bold';
+        letter-spacing: 0.2em;
+        font-size: 14px;
+    }
+
+    .sub-button-2:hover {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 5px 12px 5px 12px;
+        border-radius: 20px;
+        font-family: 'Gilroy-bold';
+        letter-spacing: 0.2em;
+        font-size: 14px;
+    }
+
+    #section-1 {
+        display: flex;
+        margin-bottom: 0rem;
+        height: 50vh;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-image: url("resources/img/tileburnedin.jpg");
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #section-2 {
+        margin-bottom: 0rem;
+        height: 50vh;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-image: url("resources/img/tileburnedin2.jpg");
+        background-size: cover;
+        
+    }
+
+    #main-div-section1{
+        min-height: auto;
+    }
+
+    #grid-div-section1{
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+
+    #row1-grid1 {
+        text-align: center;
+        margin: 15px;
+    }
+
+    #row2-grid1 {
+        text-align: center;
+        margin: 15px;
+    }
     
 }
 
-#nav {
-    background: rgba(0, 0, 0, 0.4);
-    position: fixed;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: 1;
-}
-
-#hbo-logo {
-    width: 140px;
-    height: 70px;
-    margin-left: 10px;
-}
-
-.rightcorner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    letter-spacing: 2px;
-}
-
-#login-button {
-    color: white;
-    text-decoration: none;
-    padding: 8px 45px 8px 45px;
-    border-radius: 20px;
-    transition-duration: 0.4s;
-    font-family: 'Gilroy-Bold', sans-serif;
-    font-size: small;
-}
-
-#nav-third-item {
-    margin-right: 10px;
-}
-
-#sub-button {
-    color: white;
-    background-color: #b535f6;
-    text-decoration: none;
-    padding: 8px 40px 8px 40px;
-    border-radius: 20px;
-    transition-duration: 0.4s;
-    font-family: 'Gilroy-Bold', sans-serif;
-    font-size: small;
-}
-
-#sub-button:hover {
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    padding: 15px 45px 15px 45px;
-    border-radius: 20px;
-    margin-left: 25px;
-    font-family: 'Gilroy-Bold', sans-serif;
-    font-size: small;
-}
-.gradiente {
-    background-image: linear-gradient(180deg,rgba(0,0,0,1),rgba(0,0,0,0.5));
-    z-index: 10;
-}
-#section-1 {
-    margin-bottom: 0rem;
-    height: 100vh;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-image: url("resources/img/tileburnedin.jpg");
-    background-size: cover;
-
-}
-
-#section-2 {
-    margin-bottom: 0rem;
-    height: 100vh;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-image: url("resources/img/tileburnedin2.jpg");
-    background-size: cover;
+@media only screen and (max-width: 600px) {
     
-}
+    article {
+        width: 100vw;
+    }
+    
+    #nav {
+        background: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        height: 5vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
 
-#main-div-section1{
-    color: red;
-    height: 60vh;
-    min-height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 35vw;
+    #hbo-logo {
+        width: 100px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 6px;
+    }
 
-}
+    .rightcorner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 1.5px;
+    }
 
-#grid-div-section1{
-    display: grid;
-    -ms-grid-column-align: center;
-    grid-template-columns: 300px 300px;
-    align-self: flex-end;
+    #login-button {
+        color: white;
+        text-decoration: none;
+        padding: 4px 10px 4px 10px;
+        border-radius: 20px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 10px;
+    }
 
+    #nav-third-item {
+        margin-right: 10px;
+    }
+
+    .sub-button {
+        color: white;
+        background-color: #b535f6;
+        text-decoration: none;
+        padding: 4px 10px 4px 10px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 10px;
+    }
+
+    .sub-button:active {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 5px 12px 5px 12px;
+        border-radius: 20px;
+        margin-left: 8px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 10px;
+    }
+
+    .sub-button-2 {
+        color: white;
+        background-color: #b535f6;
+        text-decoration: none;
+        padding: 4px 10px 4px 10px;
+        border-radius: 20px;
+        transition-duration: 0.4s;
+        font-family: 'Gilroy-bold';
+        letter-spacing: 1.5px;
+    }
+
+    .sub-button-2:active {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 5px 12px 5px 12px;
+        border-radius: 20px;
+        font-family: 'Gilroy-bold';
+        letter-spacing: 1.5px;
+    }
+
+    #section-1 {
+        display: flex;
+        margin-bottom: 0rem;
+        height: 25vh;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-image: url("resources/img/tileburnedin.jpg");
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #section-2 {
+        margin-bottom: 0rem;
+        height: 35vh;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-image: url("resources/img/tileburnedin2.jpg");
+        background-size: cover;
+        
+    }
+
+    #main-div-section1{
+        min-height: auto;
+
+    }
+
+    #grid-div-section1{
+        display: grid;
+        grid-template-columns: 800px;
+        font-size: 10px;
+    }
+
+    #row1-grid1 {
+        text-align: center;
+        grid-row-start: 1;
+        justify-self: center;
+    }
+
+    #row2-grid1 {
+        text-align: center;
+        grid-row-start: 2;
+        justify-self: center;
+    }
 }
