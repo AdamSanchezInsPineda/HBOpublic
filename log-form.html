@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicia sessió - HBO Badalona</title>
+        <link rel="icon" href="resources/icon/hbo.png">
+        <link rel="stylesheet" href="log-style.css">
+        <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+        <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+    </head>
+    <body>
+        <section id="section-nav">
+            <nav id="nav">
+                <div class="nav-first-item">
+                    <a href="index.html">
+                        <img id="hbo-logo" src="resources/img/hbo-max-h-w-l.svg" alt="HBO Logo">
+                    </a>
+                </div>
+                <div class="rightcorner">
+                    <div id="nav-second-item">
+                        <a id="login-button" target="_top" role="button" href="index.html">INICIA SESSIÓ</a>
+                    </div>
+                    <div id="nav-third-item">
+                        <a class="sub-button" target="_top" role="button" href="index.html">SUBSCRIU-TE</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <div id="main-div">
+            <form action="" method="post">
+                <div class="container">
+                    <label for="username">Nom d'usuari</label>
+                    <input type="text" placeholder="Nom d'usuari" name="username" required>
+
+                    <label for="pswd">Password</label>
+                    <input type="text" placeholder="Contrasemya" name="pswd" required>
+
+                    <button id="signin" type="submit">Inicia sessió</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember">Remember me
+                    </label>
+                </div>
+                <div class="container">
+                    <span class="psswd"><a>Recuperar contrasenya</a></span>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
