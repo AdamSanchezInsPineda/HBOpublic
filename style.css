@@ -115,17 +115,6 @@ body {
 
     }
 
-    #section-2 {
-        margin-bottom: 0rem;
-        height: 120vh;
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-color: black;
-        background-image: url("resources/img/tileburnedin2.jpg");
-        background-size: cover;
-        
-    }
-
     #main-div-section1{
         min-height: auto;
 
@@ -145,6 +134,24 @@ body {
     #row2-grid1 {
         text-align: center;
         margin: 15px;
+    }
+
+    #section-2 {
+        margin-bottom: 0rem;
+        height: 120vh;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-image: url("resources/img/tileburnedin2.jpg");
+        background-size: cover;
+        
+    }
+
+    #videosize {
+        width: auto;
+        height: auto;
+        max-width: 800px;
+        max-height: 600px;
     }
 
 }
