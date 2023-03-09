@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HBO Badalona</title>
         <link rel="icon" href="resources/icon/hbo.png">
-        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style.css">
         <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
         <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
     </head>
@@ -17,7 +17,7 @@
                 <nav id="nav">
                     <div class="nav-first-item">
                         <a href="index.html">
-                            <img id="hbo-logo" src="resources/img/HBO_logo.svg.png" alt="HBO Logo">
+                            <img id="hbo-logo" src="resources/img/hbo-max-h-w-l.svg" alt="HBO Logo" href="index1.html">
                         </a>
                     </div>
                     <div class="rightcorner">
@@ -25,7 +25,7 @@
                             <a id="login-button" target="_top" role="button" href="log-form1.html">INICIA SESSIÓ</a> 
                         </div>
                         <div id="nav-third-item">
-                            <a class="sub-button" target="_top" role="button" href="index.html">SUBSCRIU-TE</a>
+                            <a class="sub-button" target="_top" role="button" href="reg-form1.html">SUBSCRIU-TE</a>
                         </div>
                     </div>
                 </nav>
@@ -50,12 +50,59 @@
             <section id="section-2">
                 <div id="video-div-section2">
                     <video id="videosize" controls muted autoplay>
-                        <source src="resources/video/House of the Dragon _ Official Trailer _ HBO Max (1080p_24fps_H264-128kbit_AAC).mp4" type="video/mp4">
+                        <source src="resources/vid/House of the Dragon _ Official Trailer _ HBO Max (1080p_24fps_H264-128kbit_AAC).mp4" type="video/mp4">
                         Tu navegador no soporta los vídeos de HTML5
                     </video>
                 </div>
             </section>
             <section id="section-3">
+                <div class="slide">
+                    <div class="slide-inner">
+                        <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+                        <div class="slide-item">
+                            <img src="resources/img/tlou.jpeg">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-2" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="resources/img/thebatman.jpeg">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-3" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="resources/img/dune.jpeg">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-4" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="resources/img/blackadam.jpeg">
+                        </div>
+                        <label for="slide-3" class="slide-control prev control-1">‹</label>
+                        <label for="slide-2" class="slide-control next control-1">›</label>
+                        <label for="slide-1" class="slide-control prev control-2">‹</label>
+                        <label for="slide-3" class="slide-control next control-2">›</label>
+                        <label for="slide-2" class="slide-control prev control-3">‹</label>
+                        <label for="slide-1" class="slide-control next control-3">›</label>
+                        <label for="slide-3" class="slide-control prev control-4">‹</label>
+                        <label for="slide-2" class="slide-control next control-4">›</label>
+                        <ol class="slide-indicador">
+                            <li>
+                                <label for="slide-1" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-2" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-3" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-4" class="slide-circulo">•</label>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section id="section-4">
                 <div class="FaQ-container">
                     <h1>Preguntes freqüents</h1>
                     <details>
