@@ -84,7 +84,7 @@ body {
         color: white;
         background-color: #b535f6;
         text-decoration: none;
-        padding: 8px 60px 8px 60px;
+        padding: 8px 50px 8px 50px;
         border-radius: 20px;
         transition-duration: 0.4s;
         font-family: 'Gilroy-bold';
@@ -95,7 +95,7 @@ body {
         color: black;
         background-color: white;
         text-decoration: none;
-        padding: 15px 45px 15px 45px;
+        padding: 15px 65px 15px 65px;
         border-radius: 20px;
         font-family: 'Gilroy-bold';
         letter-spacing: 0.2em;
@@ -112,7 +112,6 @@ body {
         background-size: cover;
         align-items: center;
         justify-content: center;
-
     }
 
     #main-div-section1{
@@ -122,7 +121,7 @@ body {
 
     #grid-div-section1{
         display: grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 400px 400px;
 
     }
 
@@ -142,9 +141,11 @@ body {
         background-position: top center;
         background-repeat: no-repeat;
         background-color: black;
-        background-image: url("resources/img/tileburnedin2.jpg");
+        background-image: url("resources/img/1260061.jpg");
         background-size: cover;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #videosize {
@@ -153,6 +154,51 @@ body {
         max-width: 800px;
         max-height: 600px;
     }
+
+    #section-3 {
+        background-image: url("resources/img/istockphoto-1162940275-612x612.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+    details{
+        background-color: #303030;
+        color: #fff;
+        font-size: 1.5rem;
+        width: 50vw;
+      }
+      
+      summary {
+        padding: .5em 1.3rem;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;  
+        transition: height 1s ease;
+      }
+      
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      
+      summary:after{
+        content: "\002B";
+      }
+      
+      details[open] summary {
+          border-bottom: 1px solid #aaa;
+          margin-bottom: .5em;
+      }
+      
+      details[open] summary:after{
+        content: "\00D7";
+      }
+      
+      details[open] div{
+        padding: .5em 1em;
+      }
 
 }
 
@@ -191,10 +237,10 @@ body {
     #login-button {
         color: white;
         text-decoration: none;
-        padding: 4px 25px 4px 25px;
+        padding: 8px 45px 8px 45px;
         border-radius: 20px;
         font-family: 'Gilroy-Bold', sans-serif;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #nav-third-item {
@@ -205,67 +251,67 @@ body {
         color: white;
         background-color: #b535f6;
         text-decoration: none;
-        padding: 4px 25px 4px 25px;
+        padding: 4px 10px 4px 10px;
         border-radius: 20px;
         transition-duration: 0.4s;
         font-family: 'Gilroy-Bold', sans-serif;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .sub-button:active {
         color: black;
         background-color: white;
         text-decoration: none;
-        padding: 6px 25px 6px 25px;
+        padding: 6px 14px 6px 14px;
         border-radius: 20px;
         margin-left: 8px;
         font-family: 'Gilroy-Bold', sans-serif;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .sub-button:hover {
         color: black;
         background-color: white;
         text-decoration: none;
-        padding: 6px 25px 6px 25px;
+        padding: 6px 14px 6px 14px;
         border-radius: 20px;
         margin-left: 8px;
         font-family: 'Gilroy-Bold', sans-serif;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .sub-button-2 {
         color: white;
         background-color: #b535f6;
         text-decoration: none;
-        padding: 4px 25px 4px 25px;
+        padding: 4px 10px 4px 10px;
         border-radius: 20px;
         transition-duration: 0.4s;
         font-family: 'Gilroy-bold';
         letter-spacing: 0.2em;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .sub-button-2:active {
         color: black;
         background-color: white;
         text-decoration: none;
-        padding: 6px 25px 6px 25px;
+        padding: 5px 12px 5px 12px;
         border-radius: 20px;
         font-family: 'Gilroy-bold';
         letter-spacing: 0.2em;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .sub-button-2:hover {
         color: black;
         background-color: white;
         text-decoration: none;
-        padding: 6px 25px 6px 25px;
+        padding: 5px 12px 5px 12px;
         border-radius: 20px;
         font-family: 'Gilroy-bold';
         letter-spacing: 0.2em;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #section-1 {
@@ -288,7 +334,7 @@ body {
         background-position: top center;
         background-repeat: no-repeat;
         background-color: black;
-        background-image: url("resources/img/tileburnedin2.jpg");
+        background-image: url("resources/img/tileburnedin2.jpeg");
         background-size: cover;
         
     }
@@ -422,7 +468,7 @@ body {
         background-position: top center;
         background-repeat: no-repeat;
         background-color: black;
-        background-image: url("resources/img/tileburnedin2.jpg");
+        background-image: url("resources/img/tileburnedin2.jpeg");
         background-size: cover;
         
     }
