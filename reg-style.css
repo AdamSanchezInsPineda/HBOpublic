@@ -1,0 +1,13 @@
+.container {
+  max-width: 960px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #7337a3;
+}

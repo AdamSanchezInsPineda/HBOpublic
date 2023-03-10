@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="resources/icon/hbo.png">
-        <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
         <title>HBO Badalona</title>
+        <link rel="icon" href="resources/icon/hbo.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+        <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
     </head>
     <body>
         <article>
@@ -16,36 +17,119 @@
                 <nav id="nav">
                     <div class="nav-first-item">
                         <a href="index.html">
-                            <img id="hbo-logo" src="resources/img/hbo-max-h-w-l.svg" alt="HBO Logo">
+                            <img id="hbo-logo" src="resources/img/hbo-max-h-w-l.svg" alt="HBO Logo" href="index1.html">
                         </a>
                     </div>
                     <div class="rightcorner">
                         <div id="nav-second-item">
-                            <a id="login-button" target="_top" role="button" href="index.html">INICIA SESSIÓ</a>
+                            <a id="login-button" target="_top" role="button" href="log-form1.html">INICIA SESSIÓ</a> 
                         </div>
                         <div id="nav-third-item">
-                            <a id="sub-button" target="_top" role="button" href="index.html">SUBSCRIU-TE</a>
+                            <a class="sub-button" target="_top" role="button" href="reg-form1.html">SUBSCRIU-TE</a>
                         </div>
                     </div>
                 </nav>
             </section>
-            <div class="gradiente">
-                <section id="section-1">
+            <section id="section-1">
                     <div id="main-div-section1">
                         <div id="grid-div-section1">
-                        <div id="row1-grid1">
-                            <div class="center-text">
-                                <h1>
-                                    
-                                </h1>
+                            <div id="row1-grid1">
+                                <h1>MES</h1>
+                                <a class="sub-button-2" target="_top" role="button" href="index.html">TARIFA 1 (mes)</a>
+                            </div>
+                            <div id="row2-grid1">
+                                <h1>AÑO</h1>
+                                <a class="sub-button-2" target="_top" role="button" href="index.html">TARIFA 2 (no)</a>
                             </div>
                         </div>
-                        </div>
+                    </div>
+                    <div class="gradient">
+
                     </div>
                 </section>
-            </div>
             <section id="section-2">
-                
+                <div id="video-div-section2">
+                    <video id="videosize" controls muted autoplay>
+                        <source src="resources/vid/House of the Dragon _ Official Trailer _ HBO Max (1080p_24fps_H264-128kbit_AAC).mp4" type="video/mp4">
+                        Tu navegador no soporta los vídeos de HTML5
+                    </video>
+                </div>
+            </section>
+            <section id="section-3">
+                <div class="slide">
+                    <div class="slide-inner">
+                        <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+                        <div class="slide-item">
+                            <img src="resources/img/tlou.jpeg">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-2" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="resources/img/thebatman.jpeg">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-3" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="resources/img/dune.jpeg">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-4" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="resources/img/blackadam.jpeg">
+                        </div>
+                        <label for="slide-3" class="slide-control prev control-1">‹</label>
+                        <label for="slide-2" class="slide-control next control-1">›</label>
+                        <label for="slide-1" class="slide-control prev control-2">‹</label>
+                        <label for="slide-3" class="slide-control next control-2">›</label>
+                        <label for="slide-2" class="slide-control prev control-3">‹</label>
+                        <label for="slide-1" class="slide-control next control-3">›</label>
+                        <label for="slide-3" class="slide-control prev control-4">‹</label>
+                        <label for="slide-2" class="slide-control next control-4">›</label>
+                        <ol class="slide-indicador">
+                            <li>
+                                <label for="slide-1" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-2" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-3" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-4" class="slide-circulo">•</label>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section id="section-4">
+                <div class="FaQ-container">
+                    <h1>Preguntes freqüents</h1>
+                    <details>
+                        <summary>¿Què es HBO Max?</summary>
+                            <div>
+                                HBO Max és un servei de streaming nou que et porta les millors històries de Warner Bros., HBO, DC, Cartoon Network i molt més, junts per primera vegada.
+                            </div>
+                    </details>
+                    <details>
+                        <summary>¿Cuant costa HBO Max?</summary>
+                            <div>
+                                HBO Max té un preu mensual de només 8,99 € i pots aconseguir un 35% de descompte amb la subscripció anual de 69,99 €. Són quatre mesos gratis a l'any!
+                            </div>
+                    </details>
+                    <details>
+                        <summary>¿Puc accedir a HBO max si estic subscrit a HBO Espanya?</summary>
+                            <div>
+                                Si estàs subscrit a HBO España, ja pots accedir a HBO Max. Tan sols has d'iniciar sessió en HBO Max amb les dades del teu compte de HBO Espanya. Per a accedir des de diferents dispositius, descàrrega l'aplicació HBO Max en l'App Store o en Google Play.
+                            </div>
+                    </details>
+                    <details>
+                        <summary>¿En quins dispositius puc reproduir HBO Max?</summary>
+                        <div>
+                            Pots reproduir HBO Max en iPhone i iPad, mòbils i tauletes Android, Apple TV, Android TV, Chromecast, Samsung TV, LG, Chrome US, MacOS, Windows PC, PS5, PS4, Xbox Sèries X|S, i Xbox One. I més dispositius en el futur.
+                        </div>
+                    </details>
+                </div>  
             </section>
         </article>
         <script src="main.js"></script>
