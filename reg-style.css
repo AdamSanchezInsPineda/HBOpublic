@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.gy-3{
+  justify-content: flex-start;
+}
+
 body{
     background-color: #7337a3;
 }

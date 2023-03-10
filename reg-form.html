@@ -105,12 +105,21 @@
             </div>
 
             <div class="col-12">
-              <label for="username" class="form-label">Username</label>
+              <label for="Password" class="form-label">Password</label>
               <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <input type="text" class="form-control" id="username" placeholder="Password" required>
               <div class="invalid-feedback">
-                  Nom d'usuari requerit.
+                  Password requerit.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="Password2" class="form-label">Torna a posar password</label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" id="username" placeholder="Password" required>
+              <div class="invalid-feedback">
+                  Els passwords han de coincidir.
                 </div>
               </div>
             </div>
@@ -192,7 +201,7 @@
             <div class="col-md-6">
               <label for="cc-name" class="form-label">Nom de targeta</label>
               <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-muted">El nom tal i com surt a la targeta</small>
+              
               <div class="invalid-feedback">
                 Introduiu el nom del propietari
               </div>
