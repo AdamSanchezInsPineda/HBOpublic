@@ -121,7 +121,7 @@
         background-position: top center;
         background-repeat: no-repeat;
         background-color: black;
-        background-image: url("resources/img/tileburnedin.jpg");
+        background-image: url("resources/img/jokerbien.webp");
         background-size: cover;
         object-fit: cover;
         align-items: center;
@@ -131,6 +131,10 @@
     #main-div-section1{
         min-height: auto;
 
+    }
+
+    #letras {
+        margin-left: 40%;
     }
 
     #grid-div-section1{
