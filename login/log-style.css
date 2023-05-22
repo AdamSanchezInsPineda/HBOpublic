@@ -1,0 +1,21 @@
+.container {
+  max-width: 650px;
+  align-self: center;
+  justify-self: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gy-3{
+  justify-content: flex-start;
+}
+
+body{
+    background-color: #7337a3;
+    display: flex;
+    align-items: center;
+}
